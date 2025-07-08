@@ -22,7 +22,7 @@ npm install convertfx
 Here's a simple example of how to use ConvertFX:
 
 ```javascript
-import { convertCurrency } from "convertfx";
+import { convertCurrency } from "./node_modules/convertfx/index.js";
 
 // Convert 500 INR to USD
 convertCurrency("INR", "USD", 500)
